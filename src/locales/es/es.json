@@ -1,0 +1,47 @@
+{
+  "translation": {
+    "menu": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "about": "¿Quienes somos?",
+      "contact": "Contáctanos"
+    },
+    "home": {},
+    "training": {
+      "puppies": {
+        "title": "Adiestramiento de cachorros",
+        "description": "Culpa reprehenderit anim cupidatat consectetur veniam nulla aliqua. Culpa fugiat occaecat est proident ut ut magna Lorem eu exercitation. Esse consectetur consequat quis esse ad exercitation excepteur consequat eiusmod labore aliqua minim laborum. Mollit Lorem consectetur in duis occaecat incididunt ipsum consequat proident ullamco deserunt elit nulla sint."
+      },
+      "aggressive": {
+        "title": "Adiestramiento para perros agresivos",
+        "description": "Ea consequat enim enim ullamco aliquip ullamco nulla id dolore proident officia culpa commodo adipisicing. Laboris aliquip ipsum tempor exercitation laboris velit commodo. Culpa ipsum ipsum est incididunt elit consectetur commodo. Do ullamco reprehenderit tempor qui nostrud nisi voluptate."
+      },
+      "dogs": {
+        "title": "Adiestramiento canino",
+        "description": "Elit commodo officia pariatur ut do anim sit ad qui eiusmod laboris eu. Esse elit consequat incididunt Lorem nulla velit aliqua sunt ex labore in velit ex. Mollit deserunt cillum est do enim enim commodo quis consectetur quis velit. Enim cillum nostrud duis sint laboris laboris voluptate sit Lorem."
+      },
+      "work": {
+        "title": "Adiestramiento para perros de trabajo",
+        "description": "Consectetur dolore cupidatat excepteur laborum ad officia. Enim anim id labore eiusmod est qui occaecat tempor do fugiat ullamco dolor nulla. Do non occaecat in ut minim eu. Aliqua reprehenderit elit officia nostrud laborum deserunt et elit incididunt dolore labore enim elit."
+      },
+      "tutor": {
+        "title": "Adiestramiento de tutores",
+        "description": "Magna excepteur et sit magna sit nulla velit laboris elit occaecat cupidatat. Cupidatat dolore fugiat qui aute labore elit deserunt mollit nisi ullamco deserunt ullamco. Consequat sunt ad ad sint aliquip sit aliqua consectetur id commodo labore est. Aute minim ea excepteur officia. Irure veniam nisi cillum nulla irure ea velit. Pariatur proident quis commodo commodo amet officia consectetur sint deserunt. Magna incididunt elit aliquip elit culpa occaecat est."
+      }
+    },
+    "about": {
+      "title": "Reprehenderit pariatur eu laboris pariatur magna fugiat incididunt sunt duis ea tempor.",
+      "content": "Dolor adipisicing ipsum aliquip adipisicing eiusmod amet minim consequat laboris quis eu. Proident sit proident dolore fugiat proident deserunt amet enim laborum officia aute nulla amet ad. Cupidatat ut non ex officia amet ea commodo deserunt deserunt sit nostrud Lorem. Deserunt et sint fugiat est eiusmod eiusmod pariatur sunt mollit pariatur do.\nVelit excepteur est mollit incididunt officia enim. Exercitation commodo excepteur non adipisicing aliquip quis pariatur. Excepteur aliqua magna consequat excepteur. Aliqua veniam ipsum exercitation dolor aliqua velit exercitation. Ea proident adipisicing laborum laboris proident ad pariatur ipsum laboris incididunt do adipisicing.\nAliquip nostrud excepteur nostrud cillum laboris consequat consectetur eu et occaecat consequat. Do deserunt adipisicing non minim dolore anim magna incididunt culpa deserunt. Non ea ex minim velit Lorem amet ut ipsum sit do labore. Exercitation reprehenderit labore do veniam commodo. Culpa officia dolore nulla laborum magna proident minim consequat in sunt anim dolor est. Enim magna do in ipsum velit magna magna minim fugiat ut.\nAute veniam et consequat ex enim pariatur commodo deserunt. Culpa velit occaecat magna velit reprehenderit velit proident ex. Eiusmod dolor voluptate anim dolor id cupidatat id. Quis laboris dolor velit et occaecat.\nAliqua elit non non do proident laborum cupidatat dolore in irure qui sint cupidatat sunt. Est irure velit reprehenderit cupidatat minim sunt mollit culpa consectetur ullamco excepteur ad esse. Sint laboris cillum incididunt laboris laboris. Pariatur est cupidatat anim officia sit irure ullamco. Sunt cillum enim incididunt amet culpa occaecat nisi occaecat voluptate nulla commodo. Proident non excepteur ea ad aute ex ea nostrud reprehenderit labore qui pariatur aute.",
+      "imageAlt": "Ignacion Torres junto a dos de sus alumnos caninos",
+      "imageAlt2": "Ignacion Torres junto a un pasto aleman de trabajo"
+    },
+    "contact": {
+      "title": "¡Contáctanos por WhatsApp o redes sociales!",
+      "whatsAppNumber": "+5493513899551",
+      "whatsAppMessage": "Hola Ignacio, me gustaría conocer mas sobre los entrenamientos. ¿Podrías contactarme a este número?",
+      "instagramUrl": "https://www.instagram.com/entrenamiento_canino_it/",
+      "facebookUrl": "https://www.facebook.com/correccionconductascaninas?mibextid=LQQJ4d",
+      "copyRightText": "All rights reserved ©Copyright {{year}} Igancio Torres"
+    }
+  }
+}

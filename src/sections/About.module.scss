@@ -1,0 +1,46 @@
+@import '../assets/app-variables.scss';
+
+.aboutSection {
+  background-color: $yellow;
+}
+
+.aboutContainer {
+  position: relative;
+  background: transparent;
+  height: 14vh;
+}
+
+.aboutWave {
+  position: absolute;
+  height: 140px;
+  width: 100%;
+  background: $yellow;
+  bottom: 0;
+}
+
+.aboutWave::before,
+.aboutWave::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.aboutWave::before {
+  width: 55%;
+  height: 109%;
+  background-color: $orange;
+  right: -1.5%;
+  top: 60%;
+}
+.aboutWave::after {
+  width: 55%;
+  height: 100%;
+  background-color: $yellow;
+  left: -1.5%;
+  top: 40%;
+}
+
+.aboutCardWidth {
+  width: 40rem;
+}

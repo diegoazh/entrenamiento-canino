@@ -1,0 +1,9 @@
+@import './assets/app-variables.scss';
+
+.scrollTopBackground {
+  background-color: $brown-light !important;
+
+  * {
+    color: $brown-light4 !important;
+  }
+}

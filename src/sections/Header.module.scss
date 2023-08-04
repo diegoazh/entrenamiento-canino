@@ -1,0 +1,55 @@
+@import '../assets/app-variables.scss';
+
+.headerMenuContainer {
+  .headerMenuLogoContainer {
+    .headerMenuLogoShadow {
+      filter: drop-shadow(0.5rem 0.5rem 1rem $brown-dark);
+    }
+  }
+  .headerMenu {
+    ul {
+      li {
+        a {
+          text-shadow: 0.5rem 0.5rem 1rem $brown-dark;
+        }
+      }
+    }
+  }
+}
+
+.headerContainer {
+  position: relative;
+  background: transparent;
+  height: 14vh;
+}
+
+.headerWave {
+  position: absolute;
+  height: 12vh;
+  width: 100%;
+  background: $orange;
+  bottom: 4;
+}
+
+.headerWave::before,
+.headerWave::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.headerWave::before {
+  width: 55%;
+  height: 109%;
+  background-color: $yellow;
+  right: -1.5%;
+  top: 60%;
+}
+.headerWave::after {
+  width: 55%;
+  height: 100%;
+  background-color: $orange;
+  left: -1.5%;
+  top: 40%;
+}

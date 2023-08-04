@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './assets/app-variables.scss';
+
+* {
+  font-family: 'Michroma', sans-serif;
+  color: $brown-dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $orange;
+}

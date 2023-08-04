@@ -1,0 +1,46 @@
+@import '../assets/app-variables.scss';
+
+.trainingSection {
+  background-color: $orange;
+}
+
+.trainingContainer {
+  position: relative;
+  background: transparent;
+  height: 14vh;
+}
+
+.trainingWave {
+  position: absolute;
+  height: 140px;
+  width: 100%;
+  background: $orange;
+  bottom: 0;
+}
+
+.trainingWave::before,
+.trainingWave::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.trainingWave::before {
+  width: 55%;
+  height: 109%;
+  background-color: $yellow;
+  right: -1.5%;
+  top: 60%;
+}
+.trainingWave::after {
+  width: 55%;
+  height: 100%;
+  background-color: $orange;
+  left: -1.5%;
+  top: 40%;
+}
+
+.trainingCardWidth {
+  width: 40rem;
+}
