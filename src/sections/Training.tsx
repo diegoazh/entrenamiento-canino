@@ -63,6 +63,26 @@ export const Training = () => {
     },
   ];
 
+  const HtmlContentComponent = ({ content }: { content: IService }) => {
+    return (
+      <p className="my-4 text-justify">
+                  <img
+            src={content.image}
+            alt={content.title}
+            className="w-6/12 border-4 border-solid border-yellow-500 rounded float-left m-4"
+          />
+        {t(content.description).split('\n').map((p) => {
+          return (
+            <>
+              {p}
+              <br />
+            </>
+          );
+        })}
+      </p>
+    );
+  };
+
   const carouselTemplate = (service: IService) => {
     return (
       <Card
@@ -70,12 +90,7 @@ export const Training = () => {
         className={`mr-20 ${styles.trainingCardWidth}`}
       >
         <div className="flex justify-center items-start">
-          <img
-            src={service.image}
-            alt={service.title}
-            className="w-6/12 border-4 border-solid border-yellow-500 rounded float-left m-4"
-          />
-          <p className="my-4">{t(service.description)}</p>
+          <HtmlContentComponent content={service} />
         </div>
       </Card>
     );

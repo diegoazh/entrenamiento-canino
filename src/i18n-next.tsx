@@ -4,7 +4,7 @@ import es from './locales/es/es.json';
 import en from './locales/en/en.json';
 
 i18n.use(initReactI18next).init({
-  debug: true,
+  debug: !import.meta.env.PROD,
   lng: 'es',
   fallbackLng: 'es',
   interpolation: {
