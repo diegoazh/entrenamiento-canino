@@ -28,11 +28,15 @@ export const About = () => {
   };
 
   const HtmlContentComponent = ({ content }: { content: string }) => {
-    return content.split('\n').map((p, i) => {
-      const html = <p className="mb-4 text-justify">{p}</p>;
+    return (
+      <>
+        {content.split('\n').map((p, i) => {
+          const html = <p className="mb-4 text-justify">{p}</p>;
 
-      return <AddImageComponent key={i} index={i} html={html} />;
-    });
+          return <AddImageComponent key={i} index={i} html={html} />;
+        })}
+      </>
+    );
   };
 
   return (

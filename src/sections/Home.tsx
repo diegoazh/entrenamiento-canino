@@ -5,17 +5,18 @@ export const Home = () => {
   const { t } = useTranslation();
 
   const HtmlContentComponent = ({ content }: { content: string }) => {
-    return content.split('\n').map((p) => {
-      return <p className="mb-4 text-justify">{p}</p>;
-    });
+    return (
+      <>
+        {content.split('\n').map((p) => {
+          return <p className="mb-4 text-justify">{p}</p>;
+        })}
+      </>
+    );
   };
 
   return (
     <>
-      <section
-        id="home"
-        className={`p-28 text-justify ${styles.homeSection}`}
-      >
+      <section id="home" className={`p-28 text-justify ${styles.homeSection}`}>
         <HtmlContentComponent content={t('home.content')} />
       </section>
       <div className={styles.homeContainer}>
