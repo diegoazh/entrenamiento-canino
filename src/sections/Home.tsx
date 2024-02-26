@@ -14,7 +14,7 @@ export const Home = () => {
     <>
       <section
         id="home"
-        className={`h-2/6 p-28 text-justify ${styles.homeSection}`}
+        className={`p-28 text-justify ${styles.homeSection}`}
       >
         <HtmlContentComponent content={t('home.content')} />
       </section>

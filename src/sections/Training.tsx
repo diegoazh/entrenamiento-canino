@@ -98,7 +98,7 @@ export const Training = () => {
 
   return (
     <>
-      <section id="training" className={`h-3/6 p-28 ${styles.trainingSection}`}>
+      <section id="training" className={`p-28 ${styles.trainingSection}`}>
         <Carousel
           value={services}
           itemTemplate={carouselTemplate}

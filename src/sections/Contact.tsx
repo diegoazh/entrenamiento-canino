@@ -40,7 +40,7 @@ export const Contact = () => {
 
   return (
     <>
-      <section id="contact" className={`h-1/6 p-28 ${styles.contactSection}`}>
+      <section id="contact" className={`p-28 ${styles.contactSection}`}>
         <h2 className="text-4xl text-center bold mb-8">{t('contact.title')}</h2>
         <div className="flex width-full justify-around items-start py-20">
           <i
@@ -58,7 +58,7 @@ export const Contact = () => {
         </div>
       </section>
       <section
-        className={`h-1/6 flex flex-col items-center justify-center pb-10 ${styles.contactCopyRightSection}`}
+        className={`flex flex-col items-center justify-center pb-10 ${styles.contactCopyRightSection}`}
       >
         <div className={styles.skewed}></div>
         <p className="block text-center mb-8">

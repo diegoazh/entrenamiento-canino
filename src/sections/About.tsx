@@ -37,7 +37,7 @@ export const About = () => {
 
   return (
     <>
-      <section id="about" className={`h-3/6 p-28 ${styles.aboutSection}`}>
+      <section id="about" className={`p-28 ${styles.aboutSection}`}>
         <h2 className="text-4xl font-bold mb-6">{t('about.title')}</h2>
         <img
           src={aboutImage}
