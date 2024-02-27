@@ -97,14 +97,17 @@ export const Training = () => {
   };
 
   return (
+    // TODO: improve this carousel for different views
     <>
-      <section id="training" className={`p-28 ${styles.trainingSection}`}>
+      <section id="training" className={`p-24 ${styles.trainingSection}`}>
         <Carousel
           value={services}
           itemTemplate={carouselTemplate}
           numVisible={2}
           numScroll={2}
           responsiveOptions={responsiveOptions}
+          circular={true}
+          autoplayInterval={3000}
         />
       </section>
       <div className={styles.trainingContainer}>
